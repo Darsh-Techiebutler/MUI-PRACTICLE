@@ -5,13 +5,14 @@ import PanToolAltOutlinedIcon from '@mui/icons-material/PanToolAltOutlined';
 import { CopyAll, Devices, LibraryBooks, LocalAtm } from "@mui/icons-material";
 import LocalAtmOutlinedIcon from '@mui/icons-material/LocalAtmOutlined';
 import { Combination } from "./Combination";
-import { BlockSection } from "./BlockSection";
+// import { BlockSection } from "./BlockSection";
 import { DesignBlocks } from "./DesignBlocks";
 import { Navigation } from "./Navigation";
 import { InputAreas } from "./InputAreas";
 import { AttentionCatchers } from "./AttentionCatchers";
 import { Elements } from "./Elements";
-import { ElementFirst } from "./Element";
+import { ElementFirst } from "./ElementBlock";
+import { AccountPages } from "./AccountPages";
 // Code: Main component
 export default function Main() {
   return (
@@ -111,7 +112,9 @@ export default function Main() {
           <InputAreas />
           <AttentionCatchers />
           <Elements />
+        <AccountPages />
         </Container>
+
       </Box>
     </>
   );
