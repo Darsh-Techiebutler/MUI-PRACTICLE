@@ -1,16 +1,15 @@
 import { AppBar, Box, Button, Container, IconButton, Typography } from '@mui/material';
-import React from 'react'
+import React from 'react';
 import DashboardIcon from '@mui/icons-material/Dashboard';
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import ArticleIcon from '@mui/icons-material/Article';
 import ViewDayIcon from '@mui/icons-material/ViewDay';
 import ContactsIcon from '@mui/icons-material/Contacts';
-import App from './../App';
 
 function Header() {
   return (
     <>
-      <Container>
+      <Container maxWidth="lg">
         <AppBar
           position="sticky"
           sx={{
@@ -21,6 +20,7 @@ function Header() {
             flexDirection: 'row',
             justifyContent: 'space-between',
             alignItems: 'center',
+            zIndex: 1000,   
           }}
         >
           <Typography
@@ -42,6 +42,7 @@ function Header() {
               color: '#718098',
             }}
           >
+            {/* Pages */}
             <Box
               sx={{
                 display: { xs: 'none', md: 'flex' }, 
@@ -51,7 +52,7 @@ function Header() {
               <IconButton size="small" color="inherit">
                 <DashboardIcon />
               </IconButton>
-              <Typography variant="button" sx={{ fontWeight: 'bold' ,fontSize: '10px'}}>
+              <Typography variant="button" sx={{ fontWeight: 'bold', fontSize: '10px' }}>
                 pages
               </Typography>
               <IconButton size="small" color="inherit">
@@ -59,6 +60,7 @@ function Header() {
               </IconButton>
             </Box>
 
+            {/* Account */}
             <Box
               sx={{
                 display: { xs: 'none', md: 'flex' }, 
@@ -68,7 +70,7 @@ function Header() {
               <IconButton size="small" color="inherit">
                 <ContactsIcon />
               </IconButton>
-              <Typography variant="button" sx={{ fontWeight: 'bold',fontSize: '10px' }}>
+              <Typography variant="button" sx={{ fontWeight: 'bold', fontSize: '10px' }}>
                 account
               </Typography>
               <IconButton size="small" color="inherit">
@@ -76,6 +78,7 @@ function Header() {
               </IconButton>
             </Box>
 
+            {/* Sections */}
             <Box
               sx={{
                 display: { xs: 'none', md: 'flex' }, 
@@ -85,7 +88,7 @@ function Header() {
               <IconButton size="small" color="inherit">
                 <ViewDayIcon />
               </IconButton>
-              <Typography variant="button" sx={{ fontWeight: 'bold' ,fontSize: '10px'}}>
+              <Typography variant="button" sx={{ fontWeight: 'bold', fontSize: '10px' }}>
                 sections
               </Typography>
               <IconButton size="small" color="inherit">
@@ -96,14 +99,14 @@ function Header() {
             {/* Docs */}
             <Box
               sx={{
-                display: { xs: 'none', md: 'flex' }, // Hide on extra small screens
+                display: { xs: 'none', md: 'flex' },
                 alignItems: 'center',
               }}
             >
-              <IconButton size="small" color="inherit" >
+              <IconButton size="small" color="inherit">
                 <ArticleIcon />
               </IconButton>
-              <Typography variant="button" sx={{ fontWeight: 'bold',fontSize: '10px' }}>
+              <Typography variant="button" sx={{ fontWeight: 'bold', fontSize: '10px' }}>
                 docs
               </Typography>
               <IconButton size="small" color="inherit">
@@ -111,6 +114,7 @@ function Header() {
               </IconButton>
             </Box>
 
+            {/* Buy Now Button */}
             <Button
               variant="contained"
               size="small"
@@ -126,8 +130,8 @@ function Header() {
           </Box>
         </AppBar>
       </Container>
-
     </>
-  )
+  );
 }
+
 export default Header;
