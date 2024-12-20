@@ -1,62 +1,105 @@
 import { Box, Typography } from '@mui/material'
 import React from 'react'
 import { Grid } from '@mui/material';
+import { blue } from '@mui/material/colors';
+import { Cards } from './Card';
 
 export const PriceComponents = () => {
-  return (
-    <>
-    <Box display="flex" justifyContent="center" alignItems="center" m={10}>
-                <Grid
-                    container
-                    item
-                    xs={12}
-                    lg={6}
-                    direction="column"
-                    justifyContent="center"
-                    alignItems="center"
-                    sx={{ textAlign: 'center', height: '100%' }}
+    return (
+        <>
+            <Box display="flex" justifyContent="center" alignItems="center" m={10} sx={{
+                minHeight: '30vh',
+                position: 'relative', // Ensure it has a stacking context
+                zIndex: 0, 
+                backgroundColor: '#2f88ec',
+                // padding: 0, // Ensure no padding in the outer box
+            }}>
+                <Box
+                    sx={{
+                        backgroundImage: 'url(https://demos.creative-tim.com/otis-kit-pro/static/media/pattern-lines.d6471bace81c3ada86db50ecb4e28f92.svg)', // Replace with your image path
+                        backgroundSize: 'cover',
+                        backgroundPosition: 'center',
+                        borderRadius: '12px',
+                        width: '100%',
+                        height: '100%', // Make sure the inner box takes full height
+                        padding: 3, 
+                        position: 'relative',
+                        display: 'flex', // To center the content horizontally and vertically
+                        justifyContent: 'center', // Center horizontally
+                        alignItems: 'center', // Center vertically
+                        zIndex: 2,
+                    }}
                 >
-                    <Box
+                    <Grid
+                        container
+                        item
+                        xs={12}
+                        lg={6}
+                        direction="column"
+                        justifyContent="center"
+                        alignItems="center"
                         sx={{
-                            backgroundColor: '#2196F3',
-                            color: '#fff',
-                            borderRadius: '12px',
-                            px: 2,
-                            py: 0.5,
-                            fontSize: '14px',
-                            fontWeight: 'bold',
-                            mb: 2,
+                            textAlign: 'center',
+                            height: '100%',
+                            padding: 5,
+                            gap: 2,
+                            maxWidth: '100%',
+                            mb: 5,
                         }}
                     >
-                        Boost Creativity
-                    </Box>
+                        <Box
+                            sx={{
+                                backgroundColor: 'black',
+                                color: 'white',
+                                borderRadius: '12px',
+                                px: 2,
+                                py: 0.5,
+                                fontSize: '14px',
+                                fontWeight: 'bold',
+                                mb: 2,
+                            }}
+                        >
+                            Price
+                        </Box>
 
-                    <Typography
-                        sx={{
-                            fontSize: '40px',
-                            color: 'rgb(52, 71, 103)',
-                            // mb: 2,
-                            fontFamily: 'Roboto Slab',
-                            fontWeight: '600'
-                        }}
-                    >
-                        With our coded pages
-                    </Typography>
+                        <Typography
+                            sx={{
+                                fontSize: '40px',
+                                color: 'rgb(248, 250, 255)',
+                                fontFamily: 'Roboto Slab',
+                                fontWeight: '600',
+                            }}
+                        >
+                            Ready to get Material Kit?
+                        </Typography>
 
-                    <Typography
-                        variant="body1"
-                        sx={{
-                            color: 'rgb(123, 128, 154)',
-                            fontSize: '20px',
-                            fontWeight: '400',
-                            fontFamily: 'Poppins'
-                        }}
-                    >
-                        The easiest way to get started is to use one of our pre-built example pages.
-                    </Typography>
-                </Grid>
+                        <Typography
+                            variant="body1"
+                            sx={{
+                                color: 'white',
+                                fontSize: '20px',
+                                fontWeight: '400',
+                                fontFamily: 'Poppins',
+                                pb: 2,
+                            }}
+                        >
+                            Based on the license you get, you will have direct access to our team
+                            of developers who built the product.
+                        </Typography>
+                    </Grid>
+                </Box>
             </Box>
 
-    </>
-  )
+
+            {/* Second Box - Cards Component */}
+            <Box sx={{
+                marginTop: '-20vh', // Negative margin to overlap more of the first box
+                zIndex: 3,
+                padding: '0 1rem', // Optional padding adjustment
+                position: 'relative', // Ensure the zIndex is applied properly
+            }}>
+                <Cards />
+            </Box>
+        </>
+    )
 }

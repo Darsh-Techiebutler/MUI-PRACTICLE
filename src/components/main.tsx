@@ -17,6 +17,7 @@ import { Getstarted } from "./Getstarted";
 import { Trustedcomponents } from "./Trustedcomponents";
 import { Cards } from "./Card";
 import Footer from "./Footer";
+import { PriceComponents } from "./PriceComponents";
 // Code: Main component
 export default function Main() {
   return (
@@ -116,11 +117,14 @@ export default function Main() {
           <InputAreas />
           <AttentionCatchers />
           <Elements />
-          <AccountPages />
+
+        </Container>
+        <AccountPages />
+        <Container>
           <Getstarted />
           <Trustedcomponents />
         </Container>
-        <AccountPages />
+        <PriceComponents />
       </Box>
       <Footer />
     </>
