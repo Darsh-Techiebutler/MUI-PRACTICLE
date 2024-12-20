@@ -13,8 +13,7 @@ export const AccountPages = () => {
             }}>
                 <Box sx={{
                     backgroundImage: 'url(https://demos.creative-tim.com/otis-kit-pro/static/media/pattern-lines.d6471bace81c3ada86db50ecb4e28f92.svg)',
-                    height: '100%',
-                    width: '100%',
+                    height: '50%',
                     backgroundSize: 'cover',
                     backgroundPosition: 'center',
                 }}>
@@ -100,31 +99,31 @@ export const AccountPages = () => {
                                     <Divider sx={{ marginY: 2 }} />
                                     <Box>
                                         <Box sx={{ display: 'flex', alignItems: 'center', marginBottom: 1 }}>
-                                            <DoneIcon sx={{ color: 'success.main', marginRight: 1 }} />
+                                            <DoneIcon sx={{ marginRight: 1 }} />
                                             <Typography variant="button">Complete documentation</Typography>
                                         </Box>
                                         <Box sx={{ display: 'flex', alignItems: 'center', marginBottom: 1 }}>
-                                            <DoneIcon sx={{ color: 'success.main', marginRight: 1 }} />
+                                            <DoneIcon sx={{  marginRight: 1 }} />
                                             <Typography variant="button">Full code</Typography>
                                         </Box>
                                         <Box sx={{ display: 'flex', alignItems: 'center', marginBottom: 1 }}>
-                                            <DoneIcon sx={{ color: 'success.main', marginRight: 1 }} />
+                                            <DoneIcon sx={{  marginRight: 1 }} />
                                             <Typography variant="button">Use in SaaS</Typography>
                                         </Box>
                                         <Box sx={{ display: 'flex', alignItems: 'center', marginBottom: 1 }}>
-                                            <DoneIcon sx={{ color: 'success.main', marginRight: 1 }} />
+                                            <DoneIcon sx={{  marginRight: 1 }} />
                                             <Typography variant="button">Projects - unlimited</Typography>
                                         </Box>
                                         <Box sx={{ display: 'flex', alignItems: 'center', marginBottom: 1 }}>
-                                            <DoneIcon sx={{ color: 'success.main', marginRight: 1 }} />
+                                            <DoneIcon sx={{  marginRight: 1 }} />
                                             <Typography variant="button">Team Size - up to 20</Typography>
                                         </Box>
                                         <Box sx={{ display: 'flex', alignItems: 'center', marginBottom: 1 }}>
-                                            <DoneIcon sx={{ color: 'success.main', marginRight: 1 }} />
+                                            <DoneIcon sx={{  marginRight: 1 }} />
                                             <Typography variant="button">Priority support</Typography>
                                         </Box>
                                         <Box sx={{ display: 'flex', alignItems: 'center', marginBottom: 1 }}>
-                                            <DoneIcon sx={{ color: 'success.main', marginRight: 1 }} />
+                                            <DoneIcon sx={{  marginRight: 1 }} />
                                             <Typography variant="button">Free Updates - 24 months</Typography>
                                         </Box>
                                     </Box>
@@ -161,33 +160,33 @@ export const AccountPages = () => {
                                     <Divider sx={{ marginY: 2 }} />
                                     <Box>
                                         <Box sx={{ display: 'flex', alignItems: 'center', marginBottom: 1 }}>
-                                            <DoneIcon sx={{ color: 'success.main', marginRight: 1 }} />
+                                            <DoneIcon sx={{  marginRight: 1 }} />
                                             <Typography variant="button">
                                                 Complete documentation
                                             </Typography>
                                         </Box>
                                         <Box sx={{ display: 'flex', alignItems: 'center', marginBottom: 1 }}>
-                                            <DoneIcon sx={{ color: 'success.main', marginRight: 1 }} />
+                                            <DoneIcon sx={{  marginRight: 1 }} />
                                             <Typography variant="button">Full code</Typography>
                                         </Box>
                                         <Box sx={{ display: 'flex', alignItems: 'center', marginBottom: 1 }}>
-                                            <DoneIcon sx={{ color: 'success.main', marginRight: 1 }} />
+                                            <DoneIcon sx={{  marginRight: 1 }} />
                                             <Typography variant="button">Use in SaaS</Typography>
                                         </Box>
                                         <Box sx={{ display: 'flex', alignItems: 'center', marginBottom: 1 }}>
-                                            <DoneIcon sx={{ color: 'success.main', marginRight: 1 }} />
+                                            <DoneIcon sx={{  marginRight: 1 }} />
                                             <Typography variant="button">Projects - unlimited</Typography>
                                         </Box>
                                         <Box sx={{ display: 'flex', alignItems: 'center', marginBottom: 1 }}>
-                                            <DoneIcon sx={{ color: 'success.main', marginRight: 1 }} />
+                                            <DoneIcon sx={{  marginRight: 1 }} />
                                             <Typography variant="button">Team Size - up to 20</Typography>
                                         </Box>
                                         <Box sx={{ display: 'flex', alignItems: 'center', marginBottom: 1 }}>
-                                            <DoneIcon sx={{ color: 'success.main', marginRight: 1 }} />
+                                            <DoneIcon sx={{  marginRight: 1 }} />
                                             <Typography variant="button">Priority support</Typography>
                                         </Box>
                                         <Box sx={{ display: 'flex', alignItems: 'center', marginBottom: 1 }}>
-                                            <DoneIcon sx={{ color: 'success.main', marginRight: 1 }} />
+                                            <DoneIcon sx={{  marginRight: 1 }} />
                                             <Typography variant="button">Free Updates - 24 months</Typography>
                                         </Box>
                                     </Box>
@@ -223,31 +222,31 @@ export const AccountPages = () => {
                                     <Divider sx={{ marginY: 2 }} />
                                     <Box>
                                         <Box sx={{ display: 'flex', alignItems: 'center', marginBottom: 1 }}>
-                                            <DoneIcon sx={{ color: 'success.main', marginRight: 1 }} />
+                                            <DoneIcon sx={{  marginRight: 1 }} />
                                             <Typography variant="button">Perfect for web/mobile apps or SaaS projects..</Typography>
                                         </Box>
                                         <Box sx={{ display: 'flex', alignItems: 'center', marginBottom: 1 }}>
-                                            <DoneIcon sx={{ color: 'success.main', marginRight: 1 }} />
+                                            <DoneIcon sx={{  marginRight: 1 }} />
                                             <Typography variant="button">Full code</Typography>
                                         </Box>
                                         <Box sx={{ display: 'flex', alignItems: 'center', marginBottom: 1 }}>
-                                            <DoneIcon sx={{ color: 'success.main', marginRight: 1 }} />
+                                            <DoneIcon sx={{  marginRight: 1 }} />
                                             <Typography variant="button">Use in SaaS</Typography>
                                         </Box>
                                         <Box sx={{ display: 'flex', alignItems: 'center', marginBottom: 1 }}>
-                                            <DoneIcon sx={{ color: 'success.main', marginRight: 1 }} />
+                                            <DoneIcon sx={{  marginRight: 1 }} />
                                             <Typography variant="button">Projects - unlimited</Typography>
                                         </Box>
                                         <Box sx={{ display: 'flex', alignItems: 'center', marginBottom: 1 }}>
-                                            <DoneIcon sx={{ color: 'success.main', marginRight: 1 }} />
+                                            <DoneIcon sx={{  marginRight: 1 }} />
                                             <Typography variant="button">Team Size - up to 20</Typography>
                                         </Box>
                                         <Box sx={{ display: 'flex', alignItems: 'center', marginBottom: 1 }}>
-                                            <DoneIcon sx={{ color: 'success.main', marginRight: 1 }} />
+                                            <DoneIcon sx={{  marginRight: 1 }} />
                                             <Typography variant="button">Priority support</Typography>
                                         </Box>
                                         <Box sx={{ display: 'flex', alignItems: 'center', marginBottom: 1 }}>
-                                            <DoneIcon sx={{ color: 'success.main', marginRight: 1 }} />
+                                            <DoneIcon sx={{  marginRight: 1 }} />
                                             <Typography variant="button">Free Updates - 24 months</Typography>
                                         </Box>
                                     </Box>
@@ -284,33 +283,33 @@ export const AccountPages = () => {
                                     <Divider sx={{ marginY: 2 }} />
                                     <Box>
                                         <Box sx={{ display: 'flex', alignItems: 'center', marginBottom: 1 }}>
-                                            <DoneIcon sx={{ color: 'success.main', marginRight: 1 }} />
+                                            <DoneIcon sx={{  marginRight: 1 }} />
                                             <Typography variant="button">
                                                 Complete documentation
                                             </Typography>
                                         </Box>
                                         <Box sx={{ display: 'flex', alignItems: 'center', marginBottom: 1 }}>
-                                            <DoneIcon sx={{ color: 'white', marginRight: 1 }} />
+                                            <DoneIcon sx={{ marginRight: 1 }} />
                                             <Typography variant="button">Full code</Typography>
                                         </Box>
                                         <Box sx={{ display: 'flex', alignItems: 'center', marginBottom: 1 }}>
-                                            <DoneIcon sx={{ color: 'white', marginRight: 1 }} />
+                                            <DoneIcon sx={{  marginRight: 1 }} />
                                             <Typography variant="button">Use in SaaS</Typography>
                                         </Box>
                                         <Box sx={{ display: 'flex', alignItems: 'center', marginBottom: 1 }}>
-                                            <DoneIcon sx={{ color: 'white', marginRight: 1 }} />
+                                            <DoneIcon sx={{  marginRight: 1 }} />
                                             <Typography variant="button">Projects - unlimited</Typography>
                                         </Box>
                                         <Box sx={{ display: 'flex', alignItems: 'center', marginBottom: 1 }}>
-                                            <DoneIcon sx={{ color: 'white', marginRight: 1 }} />
+                                            <DoneIcon sx={{  marginRight: 1 }} />
                                             <Typography variant="button">Team Size - up to 20</Typography>
                                         </Box>
                                         <Box sx={{ display: 'flex', alignItems: 'center', marginBottom: 1 }}>
-                                            <DoneIcon sx={{ color: 'white', marginRight: 1 }} />
+                                            <DoneIcon sx={{  marginRight: 1 }} />
                                             <Typography variant="button">Priority support</Typography>
                                         </Box>
                                         <Box sx={{ display: 'flex', alignItems: 'center', marginBottom: 1 }}>
-                                            <DoneIcon sx={{ color: 'white', marginRight: 1 }} />
+                                            <DoneIcon sx={{ marginRight: 1 }} />
                                             <Typography variant="button">Free Updates - 24 months</Typography>
                                         </Box>
                                     </Box>

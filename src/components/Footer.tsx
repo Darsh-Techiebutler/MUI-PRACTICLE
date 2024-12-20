@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, Typography, Link, Grid, Container } from "@mui/material";
+import { Box, Typography, Link, Grid, Container, colors } from "@mui/material";
 import { Facebook, Twitter, GitHub, YouTube } from "@mui/icons-material";
 
 const Footer = () => {
@@ -12,7 +12,7 @@ const Footer = () => {
                 padding: "2rem 1rem",
                 textAlign: "center",
                 borderTop: "1px solid #e0e0e0",
-                mt: 5
+                mt: 10
             }}
         >
             <Container>
@@ -139,6 +139,11 @@ const Footer = () => {
                             </Typography>
                         </Box>
                     </Grid>
+                </Grid>
+                <Grid item sm={12} justifyContent="center" textAlign="center" marginTop={6}>
+                    <Typography sx={{ color: '#768299 ' }}>
+                        All rights reserved. Copyright © 2024 Otis Kit by Creative Tim.
+                    </Typography>
                 </Grid>
             </Container>
         </Box>
