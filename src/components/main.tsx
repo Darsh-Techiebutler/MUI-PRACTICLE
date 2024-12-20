@@ -13,7 +13,10 @@ import { AttentionCatchers } from "./AttentionCatchers";
 import { Elements } from "./Elements";
 import { ElementFirst } from "./ElementBlock";
 import { AccountPages } from "./AccountPages";
-import { ElementFirst } from "./Element";
+import { Getstarted } from "./Getstarted";
+import { Trustedcomponents } from "./Trustedcomponents";
+import { Cards } from "./Card";
+import Footer from "./Footer";
 // Code: Main component
 export default function Main() {
   return (
@@ -113,10 +116,13 @@ export default function Main() {
           <InputAreas />
           <AttentionCatchers />
           <Elements />
-        <AccountPages />
+          <AccountPages />
+          <Getstarted />
+          <Trustedcomponents />
         </Container>
-
+        <AccountPages />
       </Box>
+      <Footer />
     </>
   );
 }
