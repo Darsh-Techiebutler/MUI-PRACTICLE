@@ -1,8 +1,9 @@
-import { Box, Typography } from '@mui/material'
+import { Box, Button, Container, Typography } from '@mui/material'
 import React from 'react'
 import { Grid } from '@mui/material';
 import { blue } from '@mui/material/colors';
 import { Cards } from './Card';
+import { LockOutlined } from '@mui/icons-material';
 
 export const PriceComponents = () => {
     return (
@@ -10,7 +11,7 @@ export const PriceComponents = () => {
             <Box display="flex" justifyContent="center" alignItems="center" m={10} sx={{
                 minHeight: '30vh',
                 position: 'relative', // Ensure it has a stacking context
-                zIndex: 0, 
+                zIndex: 0,
                 backgroundColor: '#2f88ec',
                 // padding: 0, // Ensure no padding in the outer box
             }}>
@@ -22,7 +23,7 @@ export const PriceComponents = () => {
                         borderRadius: '12px',
                         width: '100%',
                         height: '100%', // Make sure the inner box takes full height
-                        padding: 3, 
+                        padding: 3,
                         position: 'relative',
                         display: 'flex', // To center the content horizontally and vertically
                         justifyContent: 'center', // Center horizontally
@@ -100,6 +101,37 @@ export const PriceComponents = () => {
             }}>
                 <Cards />
             </Box>
+            <Box sx={{
+                marginTop: 5,
+                display: 'flex',
+                justifyContent: 'center',
+                alignItems: 'center',
+                flexDirection: 'row',
+                color:'#acafbf'
+            }}>
+                <LockOutlined />
+                <Typography sx={{ display: 'flex', alignItems: 'center' }}>
+                    Secured Payment by&nbsp;<Typography component="span" sx={{ fontWeight: 'bold' }}>2Checkout</Typography>&nbsp;with:
+                </Typography>
+            </Box>
+            <Container>
+
+                <Box display="flex" justifyContent="center" alignItems="center" sx={{ marginTop: 5 }}>
+                    <Grid container spacing={2} justifyContent="center" alignItems="center">
+                        <Grid item sm={12} md={6} sx={{ textAlign: 'center' }}>
+                            <Typography sx={{ fontSize: 24, fontWeight: 700, color: '#344767' }}>Thank you for your support!
+                            </Typography>
+                            <Typography>We deliver the best web products
+                            </Typography>
+                        </Grid>
+                        <Grid item sm={12} md={6} sx={{ textAlign: 'center' }}>
+                            <Button variant='contained' color='primary' sx={{ margin: 1 ,fontWeight:'bold'}}>TWEET</Button>
+                            <Button variant='contained' color='primary' sx={{ margin: 1 ,fontWeight:'bold'}}>SHARE</Button>
+                            <Button variant='contained' color='error' sx={{ margin: 1,fontWeight:'bold' }}>PIN IT</Button>
+                        </Grid>
+                    </Grid>
+                </Box>
+            </Container>
         </>
     )
 }

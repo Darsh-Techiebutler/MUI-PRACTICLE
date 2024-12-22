@@ -1,12 +1,58 @@
 import React from 'react'
-import { Grid, Link, Box, Typography } from '@mui/material';
+import { Link, Box, Typography, Container } from '@mui/material';
+import Grid from '@mui/material/Grid';
 import { Flag } from '@mui/icons-material';
 import FlagIcon from '@mui/icons-material/Flag';
 import PrecisionManufacturingIcon from '@mui/icons-material/PrecisionManufacturing';
 import AppsIcon from '@mui/icons-material/Apps';
+pend
+
 export const Getstarted = () => {
     return (
+
         <>
+            <Box
+                sx={{
+                    backgroundImage: 'url(https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-design-system/assets/img/desktop.jpg)', // Replace with your image URL
+                    backgroundSize: 'cover',
+                    backgroundPosition: 'center',
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    color: 'white', 
+                }}
+            >
+                <Container maxWidth="lg">
+                    <Grid container spacing={3}>
+                        <Grid item xs={12} lg={6}>
+                            <Typography variant="h4" component="h4" sx={{ fontWeight: 'bold' }}>
+                                Built by developers
+                            </Typography>
+                            <Typography sx={{ fontWeight: 'bold', marginTop: 2, fontSize: 32 }}>
+                                Complex Documentation
+                            </Typography>
+                            <Typography variant="body1" sx={{ marginTop: 2 }}>
+                                From colors, cards, typography to complex elements, you will find the full documentation. Play with the utility
+                                classes and you will create unlimited combinations for our components.
+                            </Typography>
+                            <a
+                                href="https://www.creative-tim.com/learning-lab/material-ui-marketplace/overview/otis-kit/"
+                                target="_blank"
+                                rel="noreferrer"
+                                style={{
+                                    marginTop: 20,
+                                    display: 'inline-flex',
+                                    alignItems: 'center',
+                                    textDecoration: 'none',
+                                    color: 'white',
+                                }}
+                            >
+                                <Typography variant="body2">Read docs </Typography>
+                            </a>
+                        </Grid>
+                    </Grid>
+                </Container>
+            </Box>
             <Grid container spacing={3} sx={{ padding: 2 }}>
                 {/* Getting Started Section */}
                 <Grid item xs={12} lg={4}>
