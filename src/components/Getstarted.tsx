@@ -44,9 +44,7 @@ export const Getstarted = () => {
                 variant="body1"
                 sx={{ marginTop: 2, color: "#d8d8d9" }}
               >
-                From colors, cards, typography to complex elements, you will
-                find the full documentation. Play with the utility classes and
-                you will create unlimited combinations for our components.
+                Hello and Welocome to the Darsh applications 
               </Typography>
               <a
                 href="https://www.creative-tim.com/learning-lab/material-ui-marketplace/overview/otis-kit/"
